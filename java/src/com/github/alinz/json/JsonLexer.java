@@ -1,8 +1,6 @@
 package com.github.alinz.json;
 
 public class JsonLexer extends Lexer {
-    private State currentState;
-
     public JsonLexer(String input) {
         super(input);
     }
